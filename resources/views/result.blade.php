@@ -6,6 +6,10 @@
 <div class="text-center mt-4">
         <h2>検索結果</h2>
 
+<!-- 検索した条件と一致するものがある場合、cardを用いて表示する. -->
+
+
+
 
         @if(isset($search_mobile_GB) && $search_mobile_GB != 0)
             @foreach($mobile_GBs as $key => $mobile_GB)
@@ -115,6 +119,9 @@
                 <h4>
                     {{ $plan->plan_name }}
                 </h4>
+            </div>
+        </div>
+    </div>
     @endforeach
 
     <div class="pagination justify-content-center">{{ $plans->appends(request()->query())->links() }}</div>
