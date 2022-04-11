@@ -1,17 +1,17 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
-class DatabaseSeeder extends Seeder
+class PlansTableSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
-    public function run()
-    {
+     public function run()
+   {
          DB::table('plans')->insert([
             'plan_name' => '楽天モバイル(1GB未満) & ドコモ光',
             'mobile_GB' => 1,    //1は3GB以下
@@ -110,4 +110,3 @@ class DatabaseSeeder extends Seeder
 
     }
 }
-
