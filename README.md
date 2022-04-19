@@ -1,3 +1,15 @@
+<h1>スマホ料金&光回線の比較サイト(作成中)</h1>
+<h2>使用技術</h2>
+PHP8.0.15<br>
+Laravel Framework 6.20.44<br>
+Bootstrap<br>
+AWS Cloud9<br>
+<h2>開発を決めた背景</h2>
+光回線の料金は契約時の過剰な割引などにより、ユーザーにとって適切な料金が分かりづらい。また携帯回線とセットで契約することで、更なる割引を受けられるため、”本当にお得なプランが見えづらい”という課題がある。スマホ料金と光回線をまとめて検索できるアプリを作ってみることにした。
+<h2>課題</h2>
+使用GB数、回線速度、地域など条件検索にかけるパラメータが無数にあるため、全てのユーザーにとって最高のプランを提供することは不可能なので、ユーザーのペルソナを決定してサービスを作ることが必要。
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
